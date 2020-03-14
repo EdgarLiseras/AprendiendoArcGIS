@@ -31,4 +31,21 @@ Las imágenes Landsat/Sentinel se encuentran compuestas por diferentes bandas, c
 Una vez que hemos comprendido acerca de cada banda se procede a descargar las imágenes Landsat 8, posteriormente descomprimir las mismas.
 
 Desde ArcMap cargar las bandas de las imágenes con el botón **Add Data** de la barra de herramientas:
+
 ![Botón Add Data](Imagenes/Add_Data.png)
+
+y seleccionar los datos que se desea cargar, en nuestro caso cargarmos todos los datos descargado de las imágenes Landsat 8.
+
+![Botón Add Data Selection](Imagenes/Add_Data_Selection.png)
+
+Para realizar directamente las composiciones espectrales abrir la herramienta Composite Bands ubicada en:
+
+ArcToolbox > Data Management Tools > Raster > Raster Processing
+
+![Composite Bands](Imagenes/Composite_bands.png)
+
+Guardar la composición con extensión (.TIF).
+
+![Composite Bands Extension](Imagenes/Composite_extensionTIFF.png)
+
+En el **Input Rasters** añadir las bandas (Landsat 8) en el orden que se desea realizar la composición de las mismas. Finalmente aceptar para concluir con la combinación de bandas satelitales. También se puede realizar directamente la composición con las herramientas de la ventana **Imagine Analysis** de ArcGIS 10 (requiere la extensión **Spatial Analyst**).
