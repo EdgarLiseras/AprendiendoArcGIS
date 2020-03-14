@@ -49,3 +49,6 @@ Guardar la composición con extensión (.TIF).
 ![Composite Bands Extension](Imagenes/Composite_extensionTIFF.png)
 
 En el **Input Rasters** añadir las bandas (Landsat 8) en el orden que se desea realizar la composición de las mismas. Finalmente aceptar para concluir con la combinación de bandas satelitales. También se puede realizar directamente la composición con las herramientas de la ventana **Imagine Analysis** de ArcGIS 10 (requiere la extensión **Spatial Analyst**).
+
+![Composite Bands Image Analisys](Imagenes/Composite_bands_Image_Analisys.png)
+
