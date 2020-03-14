@@ -28,3 +28,7 @@ Las imágenes Landsat/Sentinel se encuentran compuestas por diferentes bandas, c
 - Información sobre las misiones Sentinel pueden verse en la página oficial de la [ESA](https://sentinel.esa.int/web/sentinel/home)
 - Información sobre las misiones Landsat pueden verse en la página oficial de la [NASA](https://landsat.gsfc.nasa.gov/).
 
+Una vez que hemos comprendido acerca de cada banda se procede a descargar las imágenes Landsat 8, posteriormente descomprimir las mismas.
+
+Desde ArcMap cargar las bandas de las imágenes con el botón **Add Data** de la barra de herramientas:
+![Botón Add Data](Imagenes/Add_Data.png)
